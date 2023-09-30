@@ -6,8 +6,8 @@ from flask import Flask, request
 app = Flask(__name__)
 
 # Define your Spotify API credentials
-SPOTIPY_CLIENT_ID = "*"
-SPOTIPY_CLIENT_SECRET = "*"
+SPOTIPY_CLIENT_ID = "**"
+SPOTIPY_CLIENT_SECRET = "**"
 SPOTIPY_REDIRECT_URI = "http://localhost:3000/callback"
 
 # Initialize SpotifyOAuth
