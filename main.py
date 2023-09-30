@@ -19,6 +19,7 @@ sp_oauth = SpotifyOAuth(
 )
 
 @app.route('/callback')
+
 def callback():
     code = request.args.get('code')
     token_info = sp_oauth.get_access_token(code)
